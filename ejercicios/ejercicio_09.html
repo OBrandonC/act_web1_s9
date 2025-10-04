@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario con Validación</title>
+    <style>
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        .exito {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <form id="miFormulario">
+        <label>
+            Nombre:
+            <input type="text" id="nombre">
+        </label>
+        <br><br>
+        <label>
+            Email:
+            <input type="email" id="email">
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="ejercicio_09.js"></script>
+</body>
+
+</html>
